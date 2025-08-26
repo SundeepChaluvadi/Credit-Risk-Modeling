@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Loading our model through Joblib
-model = joblib.load("xgboost_credit_model.pkl")
+model = joblib.load("credit_model.pkl")
 
 # Loading our encoders into a dictionary 
 encoders = {col: joblib.load(f"{col}_encoder.pkl") for col in ["Sex", "Housing", "Saving accounts", "Checking account"]}
