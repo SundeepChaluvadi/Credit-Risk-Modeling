@@ -1,0 +1,23 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore CatBoost logs
+catboost_info/
+
+# Ignore large data files (if needed)
+*.csv
+*.pkl
