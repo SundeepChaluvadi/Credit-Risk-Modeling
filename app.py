@@ -9,6 +9,9 @@ model = joblib.load(r"models/credit_model.pkl")
 # Loading our encoders into a dictionary 
 encoders = {col: joblib.load(f"models/{col}_encoder.pkl") for col in ["Sex", "Housing", "Saving accounts", "Checking account"]}
 
+# Load target encoder
+target_encoder = joblib.load("models/target_encoder.pkl")
+
 st.title("Credit Risk Prediction App")
 st.write("Enter applicant information to predict is the credit is risk or bad")
 
@@ -37,10 +40,11 @@ df_input = pd.DataFrame({
 # When user clicks 'Predict Risk', make a prediction and display result as GOOD or BAD
 if st.button("Predict Risk"):
     prediction = model.predict(df_input)[0]
-
-    if prediction == 1:
-        st.success("The predicted credit risk is: GOOD")
+    decoded_prediction = target_encoder.inverse_transform([prediction])[0]
+    
+    if decoded_prediction.lower() == "good":
+        st.success(f"The predicted credit risk is: {decoded_prediction}")
     else:
-        st.error("The predicted credit risk is: BAD")
+        st.error(f"The predicted credit risk is: {decoded_prediction}")
 
 
