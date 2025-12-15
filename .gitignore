@@ -8,16 +8,11 @@ __pycache__/
 venv/
 .env/
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
-
 # Ignore system files
 .DS_Store
 Thumbs.db
 
-# Ignore CatBoost logs
-catboost_info/
 
-# Ignore large data files (if needed)
-*.csv
-*.pkl
+
+
+
