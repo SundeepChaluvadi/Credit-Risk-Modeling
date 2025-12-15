@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Loading our model through Joblib
-model = joblib.load(r"models/credit_model.pkl")
+model = joblib.load("models/credit_model.pkl")
 
 # Loading our encoders into a dictionary 
 encoders = {col: joblib.load(f"models/{col}_encoder.pkl") for col in ["Sex", "Housing", "Saving accounts", "Checking account"]}
