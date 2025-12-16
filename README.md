@@ -12,6 +12,15 @@ Checked the dataset for missing values and removed rows with missing data to ens
 #### Distributions of Sex, Job, Housing, Saving accounts, Checking account, Purpose
 ![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Distributions.png)
 
+#### High Correlation between Credit Amount and Duration
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Correlation.png)
+
+#### Most of the credit is centered aroung young age with low credit amount <br> As the credit amount is increasing, larger dots implying more duration
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Credit_Amt_By_Sex_and_Duration.png)
+
+#### "Credit amount" and "Duration" affect "Risk" highly
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Credit_amt_and_Duration_Risk.png)
+
 ## Dependencies
 ```bash
   pip install -r requirements.txt
