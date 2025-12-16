@@ -15,7 +15,7 @@ Checked the dataset for missing values and removed rows with missing data to ens
 #### High Correlation between Credit Amount and Duration
 ![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/6a13e2a2c1fd0df6b6b188ea8a4676e5ff6196ae/images/Correlation.png)
 
-#### Most of the credit is centered aroung young age with low credit amount <br> As the credit amount is increasing, larger dots implying more duration
+#### Most of the credit is centered aroung young age with low credit amount, as the credit amount is increasing, larger dots implying more duration
 ![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/816ce753b88c3b98cc5c27218dd3f70f0ee95800/images/Credit_Amt_By_Sex_and_Duration.png)
 
 #### "Credit amount" and "Duration" affect "Risk" highly
