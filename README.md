@@ -37,6 +37,13 @@ Clone the repository:
   cd credit-risk-modeling
 ```
 
+## Model Evaluation
+#### Confusion Matrix
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/c9e4f342829b8ae110fefbac76c236ba695666f0/images/Confusion_matrix.png)
+
+#### ROC-AUC Curve
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/c7c3c57d495087112a572613fb391bc67eea362f/images/Roc_Auc_Curve.png)
+
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/sundeep-chaluvadi))
 
