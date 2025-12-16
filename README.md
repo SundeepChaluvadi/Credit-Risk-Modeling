@@ -16,10 +16,10 @@ Checked the dataset for missing values and removed rows with missing data to ens
 ![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/6a13e2a2c1fd0df6b6b188ea8a4676e5ff6196ae/images/Correlation.png)
 
 #### Most of the credit is centered aroung young age with low credit amount <br> As the credit amount is increasing, larger dots implying more duration
-![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Credit_Amt_By_Sex_and_Duration.png)
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/816ce753b88c3b98cc5c27218dd3f70f0ee95800/images/Credit_Amt_By_Sex_and_Duration.png)
 
 #### "Credit amount" and "Duration" affect "Risk" highly
-![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/3de66133cbd6d3d83bfab5818abbab8d051a586b/images/Credit_amt_and_Duration_Risk.png)
+![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/816ce753b88c3b98cc5c27218dd3f70f0ee95800/images/Credit_amt_and_Duration_Risk.png)
 
 ## Dependencies
 ```bash
