@@ -39,6 +39,7 @@ Clone the repository:
 
 ## Model Evaluation
 #### Confusion Matrix
+##### The model correctly identified 28 low-risk and 43 high-risk cases, but mistakenly labeled 18 low-risk as high-risk and 16 high-risk as low-risk. It shows the model does fairly well but has some errors in predicting risk. The model is moderately accurate, with some misclassifications between low- and high-risk cases.
 ![image alt](https://github.com/SundeepChaluvadi/Credit-Risk-Modeling/blob/c9e4f342829b8ae110fefbac76c236ba695666f0/images/Confusion_matrix.png)
 
 #### ROC-AUC Curve
