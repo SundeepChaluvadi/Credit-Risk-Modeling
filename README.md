@@ -26,6 +26,9 @@ Checked the dataset for missing values and removed rows with missing data to ens
   pip install -r requirements.txt
 ```
 
+## Demo
+https://credit-risk-modeling-123.streamlit.app/
+
 ## Installation
 Clone the repository:
 
@@ -33,6 +36,9 @@ Clone the repository:
   git clone https://github.com/SundeepChaluvadi/Credit-Risk-Modeling.git
   cd credit-risk-modeling
 ```
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/sundeep-chaluvadi))
 
 ## Sources
 https://www.kaggle.com/datasets/kabure/german-credit-data-with-risk
